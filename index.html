@@ -63,6 +63,33 @@
             font-size: 1.1em;
             text-align: left;
         }
+        .contact {
+            margin-top: 20px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .contact a {
+            color: #0073e6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .cv-download {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #0073e6;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .cv-download:hover {
+            background: #005bb5;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +109,13 @@
                 <li>Placeholder for second achievement</li>
                 <li>Placeholder for future achievements</li>
             </ul>
+        </div>
+        <!-- Contact & CV Section -->
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:charliewhart@gmail.com">charliewhart@gmail.com</a></p>
+            <p>Phone: <a href="tel:+447479811939">+44 7479 811939</a></p>
+            <a class="cv-download" href="CharlesHart_CV.pdf" download>Download My CV</a>
         </div>
     </div>
 </body>
