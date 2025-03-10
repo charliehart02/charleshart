@@ -15,6 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             min-height: 100vh;
             text-align: center;
             color: white;
@@ -62,7 +63,7 @@
             background: white;
             color: black;
         }
-        .achievements {
+        .achievements, .blog {
             margin-top: 20px;
             font-size: 1.1em;
             text-align: center;
@@ -102,6 +103,26 @@
         .cv-download:hover {
             background: lightgray;
         }
+        .blog-post {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            text-align: left;
+        }
+        .blog-post h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .blog-post p {
+            font-size: 1em;
+            color: #ddd;
+        }
+        .blog-post a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -120,6 +141,16 @@
                 <li>University of Bath BSc Economics (2:1) Expected.</li>
                 <li>Placement Year at Ocean Partners.</li>
             </ul>
+        </div>
+        
+        <!-- Blog Section -->
+        <div class="blog">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-post">
+                <h3>Understanding CO₂ Emissions in G7: My Empirical Research</h3>
+                <p>My dissertation explores the key drivers of CO₂ emissions in G7 countries, analyzing factors such as economic growth, renewable energy adoption, and policy interventions. By using an empirical framework, I aim to provide insights into how different variables influence emissions and what this means for global sustainability efforts.</p>
+                <a href="#">Read More</a>
+            </div>
         </div>
         
         <!-- Contact & CV Section -->
