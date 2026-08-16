@@ -2,6 +2,7 @@ backend:
   name: github
   repo: charliehart02/charleshart
   branch: main
+  site_domain: chimerical-valkyrie-2bcaa6.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "assets/uploads"
