@@ -13,6 +13,6 @@ When people think about commodity trading, they tend to picture the moment a tra
 
 But agreeing the trade is only the beginning.
 
-Physical commodity transactions can trigger a chain of processes involving traders, operations teams, risk managers, counterparties, banks, logistics providers and legal documentation before the commodity and the money ultimately reach their destinations.
+A Physical commodity transaction can trigger a chain of processes involving traders, operations teams, risk managers, counterparties, banks, logistics providers and legal documentation before the commodity and the money ultimately reach their destinations.
 
-This article follows that lifecycle from **execution to reconciliation**.
+This article follows the lifecycle from **execution to reconciliation**.
