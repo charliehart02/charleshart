@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: charliehart02/charleshart
+  branch: main
+
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Writing"
+    label_singular: "Article"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "text", required: false }
+      - { label: "Publish date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD MMMM YYYY", time_format: false }
+      - { label: "Category", name: "category", widget: "select", options: ["Commodities", "Energy", "Economics", "Research", "Other"] }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Hero image", name: "hero", widget: "image", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
