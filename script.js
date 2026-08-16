@@ -1,0 +1,3 @@
+document.getElementById('year').textContent=new Date().getFullYear();
+const posts=[{title:'What Actually Happens After a Physical Commodity Trade?',category:'COMMODITIES',date:'16 AUG 2026',summary:"A practical look at the infrastructure that turns a trader's deal into an economically and legally completed physical commodity transaction.",url:'writing/physical-commodity-trade.html'}];
+const el=document.getElementById('posts');if(el){el.innerHTML=posts.map(p=>`<article class="post"><div><p class="meta">${p.category} · ${p.date}</p><h3><a href="${p.url}">${p.title}</a></h3><p>${p.summary}</p></div><a href="${p.url}">Read article →</a></article>`).join('')}
