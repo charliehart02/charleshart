@@ -1,7 +1,7 @@
 ---
 title: What Actually Happens After a Physical Commodity Trade?
 subtitle: Following a physical commodity transaction from execution through
-  logistics, risk and settlement.
+  logistics, risk and settlement. TEST — CMS LIVE UPDATE
 date: 2026-08-15
 category: Commodities
 summary: A practical introduction to the infrastructure that turns a trader's
